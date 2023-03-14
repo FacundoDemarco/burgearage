@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/img/fondo.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: brown;
+  transition: 0.5s;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+scan {
+  color: brown;
+}
+
+.btn {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+h1 {
+  color: white;
+  margin: 20px opx 20px;
+  font-size: 80px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  color: brown;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.newslatter form {
+  width: 360px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newslatter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px;
+  border: 2px solid brown;
+  outline: none;
+  border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  top: 5px;
+  right: 5px;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(73, 36, 36);
+}
+
+.about img {
+  height: auto;
+  width: 500px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1300px;
+  max-width: 95%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  color: grey;
+  letter-spacing: 2px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+button {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: brown;
+  color: white;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.animated-image {
+  animation: mianimacion 3s ease-in-out;
+}
+
+@keyframes mianimacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.service {
+  background: #101010;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: rgb(19, 19, 19);
+  border-radius: 25px;
+  margin: 15px;
+  text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  
+
+.card .button {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 20px;
+  transition: transform 0.4s;
+}
+
+.card .button:hover {
+  background-color: white;
+  color: brown;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+
+.pra p {
+  color: brown;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+
+
+.contenedor{
+  height: 100%;
+  width: 100%;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.container{
+  background-color: #101010;
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+}
+
+.card1{
+  height: 550px;
+  width: 100%;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card1:hover{
+  box-shadow: 5px 5px 20px rgba(204, 191, 191, 0.4);
+  transform: translateY(-3%);
+}
+
+.card1 img{
+  width: 100%;
+  height: 210px;
+}
+
+.contenedor .button {
+  display: inline-block;
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 60px;
+  border-radius: 20px;
+  transition: transform 0.4s;
+}
+
+.contenedor .button:hover {
+  background-color: white;
+  color: brown;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.work{
+  background: grey;
+  color: brown;
+  padding: 10px;
+  height: auto;
+  width: auto;
+}
+
+.contact-wrapper{
+  box-shadow: 0 0 20px 0 white;
+}
+
+.contact-wrapper > *{
+  padding:1em;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form h3{
+  text-align: center;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 15px;
+}
+
+.contact-info{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+
+.contact-info ul{
+  list-style: none;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: brown;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social a:hover{
+  transform: scale(1.4);
+  transition: .3s;
+}
+
+.end{
+  position:absolute;
+  color: brown;
+  bottom: 35px;
+  font-size: 14px;
+}
+
