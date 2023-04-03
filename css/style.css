@@ -145,14 +145,16 @@ nav .nav-list li.btn a:hover {
 
 .about img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 @media (min-width: 768px){
   .about img{
 margin-right: 150px;
+max-width: 400px;
 }
 }
+
 
 .about-text {
   width: 100%;
