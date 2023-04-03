@@ -22,7 +22,7 @@ body{
 
 .main-width{
   width: 100%;
-  margin: o auto;
+  margin: 0 auto;
   padding: 0px 20px;
 }
 
@@ -94,6 +94,7 @@ nav .nav-list li.btn a:hover {
 @media (min-width: 768px){
   .content{
     align-items: flex-start;
+    padding-top: 200px;
 }
 }
 
@@ -160,7 +161,7 @@ margin-right: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .main {
@@ -185,6 +186,8 @@ margin-right: 150px;
   text-transform: capitalize;
   margin-bottom: 25px;
 }
+
+
 
 
 button {
@@ -317,7 +320,7 @@ h5 {
   .container{
     flex-direction: row;
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
 }
 }
 
@@ -419,7 +422,7 @@ footer p:nth-child(1) {
 footer p:nth-child(2) {
   color: white;
   font-size: 17px;
-  width: 500px;
+  width: 100%;
   text-align: center;
   line-height: 26px;
 }
